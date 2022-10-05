@@ -1,0 +1,14 @@
+<div class="row">
+	<div class="col-12 col-lg-6">
+		[odin-cf7-field label="Your Name" required="true"][text* your-name][/odin-cf7-field]
+	</div>
+	<div class="col-12 col-lg-6">
+		[odin-cf7-field label="Your Email" required="true"][email* your-email][/odin-cf7-field]
+	</div>
+</div>
+
+[odin-cf7-field label="Subject" required="true"][text* your-subject][/odin-cf7-field]
+
+[odin-cf7-field label="Message" required="true"][textarea* your-message][/odin-cf7-field]
+
+[submit "Submit"]
